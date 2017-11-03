@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test" preserve-order="true" 
+	 parallel="false">
+		<classes>
+
+			<class name="com.dbmi.somaWebd.SOMA_ManageTestScore" />
+			<class name="com.dbmi.somaWebd.SOMA_ManagePayment" />
+			<class name="com.dbmi.somaWebd.SOMA_ManageGPA" />
+			<class name="com.dbmi.somaWebd.SOMA_ManageRecomLetter" />
+			<class name="com.dbmi.somaWebd.SOMA_ManageNLMEligible" />
+			<class name="com.dbmi.somaWebd.SOMA_ManageAdditionalDocs" />
+			<class name="com.dbmi.somaWebd.SOMA_Comm_TriaScore" />
+			<class name="com.dbmi.somaWebd.SOMA_ManageInterview" />
+			<class name="com.dbmi.somaWebd.SOMA_Comm_Interview" />
+			<class name="com.dbmi.somaWebd.SOMA_ManageDecision" />
+			<class name="com.dbmi.somaWebd.SOMA_ManageEmail" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

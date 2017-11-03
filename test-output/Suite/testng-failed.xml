@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.dbmi.somaWebd.SOMA_Bio">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSOMA_Bio"/>
+        </methods>
+      </class> <!-- com.dbmi.somaWebd.SOMA_Bio -->
+      <class name="com.dbmi.somaWebd.SOMA_Payment">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testPyment"/>
+        </methods>
+      </class> <!-- com.dbmi.somaWebd.SOMA_Payment -->
+      <class name="com.dbmi.somaWebd.SOMA_Documents">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testEmployment"/>
+        </methods>
+      </class> <!-- com.dbmi.somaWebd.SOMA_Documents -->
+      <class name="com.dbmi.somaWebd.SOMA_Education">
+        <methods>
+          <include name="testEducation"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dbmi.somaWebd.SOMA_Education -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

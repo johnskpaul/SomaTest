@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69363" started-at="2017-10-31T18:35:24Z" finished-at="2017-10-31T18:36:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69363" started-at="2017-10-31T18:35:24Z" finished-at="2017-10-31T18:36:34Z">
+      <class name="com.dbmi.somaWebd.SOMA_FillRecom">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dbmi.somaWebd.SOMA_FillRecom@6093dd95]" name="setUp" is-config="true" duration-ms="8540" started-at="2017-10-31T14:35:24Z" finished-at="2017-10-31T14:35:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFillRecom()[pri:0, instance:com.dbmi.somaWebd.SOMA_FillRecom@6093dd95]" name="testFillRecom" duration-ms="60399" started-at="2017-10-31T14:35:33Z" finished-at="2017-10-31T14:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillRecom -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dbmi.somaWebd.SOMA_FillRecom@6093dd95]" name="tearDown" is-config="true" duration-ms="424" started-at="2017-10-31T14:36:33Z" finished-at="2017-10-31T14:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dbmi.somaWebd.SOMA_FillRecom -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test" preserve-order="true" parallel ="false">
+		<classes>
+			<class name="com.dbmi.somaWebd.SOMA_program" />
+			<class name="com.dbmi.somaWebd.SOMA_Bio" />
+			<class name="com.dbmi.somaWebd.SOMA_Contact" />
+			<class name="com.dbmi.somaWebd.SOMA_Education" />
+			<class name="com.dbmi.somaWebd.SOMA_Employment" />
+			<class name="com.dbmi.somaWebd.SOMA_Documents" />
+			<class name="com.dbmi.somaWebd.SOMA_Demographics" />
+			<class name="com.dbmi.somaWebd.SOMA_Recommenders" />
+			<class name="com.dbmi.somaWebd.SOMA_Payment" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
