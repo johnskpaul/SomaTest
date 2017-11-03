@@ -53,7 +53,7 @@
 								<include>**/*test.java</include>
 							</includes>
 							<suiteXmlFiles>
-								<suiteXmlFile>testng.xml</suiteXmlFile>
+								<suiteXmlFile>testngManage.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
