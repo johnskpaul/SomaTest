@@ -23,7 +23,7 @@ public class Soma_Login {
   
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-	System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\Apache\\geckodriver.exe");
+	System.setProperty("webdriver.firefox.marionette", "geckodriver.exe");
     driver = new FirefoxDriver();
     baseUrl = "http://dev.apply.dbmi.pitt.edu/";
 //    baseUrl = "https://act-network.org/";
